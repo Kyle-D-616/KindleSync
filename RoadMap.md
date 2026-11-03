@@ -82,7 +82,7 @@ kindlesync/
 ### 1. List EPUBs in a folder
 Take a path as `argv[1]`, print the full path of every `.epub` in it.
 
-- [ ] Check `argc` before touching `argv[1]`
+- [x] Check `argc` before touching `argv[1]`
 - [ ] `opendir` / `readdir` / `closedir`
 - [ ] Check the name ends in `.epub`
 - [ ] Build full path with `snprintf`
